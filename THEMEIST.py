@@ -66,12 +66,12 @@ subprocess.call('clear', shell=True)
 
 
 def menu():  
-    print('\033[1;31m'+"""
+    print('\033[1;33m'+"""
 
                                         THE MEIST 
                             A BUFFER OVERFLOW ATTACK FRAMEWORK"""+'\033[1;m')
     print("""                                      Version 2.0.9""")
-    print("""
+    print('\033[1;31m'+"""
     ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
             oooooooo_oo____oo_ooooooo____ooo_____ooo_ooooooo_oooo__ooooo__oooooooo_
             ___oo____oo____oo_oo_________oooo___oooo_oo_______oo__oo___oo____oo____
@@ -80,7 +80,7 @@ def menu():
             ___oo____oo____oo_oo_________oo_______oo_oo_______oo__oo___oo____oo____
             ___oo____oo____oo_ooooooo____oo_______oo_ooooooo_oooo__ooooo_____oo____
             _______________________________________________________________________⠀
-    """) 
+    """+'\033[1;m') 
     print("")
     print("[1] Fuzz the Application")
     print("[2] Pattern Creation/Crash Replication & Controlling the EIP")
